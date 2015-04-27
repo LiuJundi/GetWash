@@ -1,0 +1,520 @@
+httpd.exe: Could not reliably determine the server's fully qualified domain name, using 118.193.170.200 for ServerName
+[Fri Apr 24 22:43:32 2015] [notice] Apache/2.2.25 (Win32) configured -- resuming normal operations
+[Fri Apr 24 22:43:32 2015] [notice] Server built: Jul 10 2013 01:52:12
+[Fri Apr 24 22:43:32 2015] [notice] Parent: Created child process 2376
+httpd.exe: Could not reliably determine the server's fully qualified domain name, using 118.193.170.200 for ServerName
+httpd.exe: Could not reliably determine the server's fully qualified domain name, using 118.193.170.200 for ServerName
+[Fri Apr 24 22:43:32 2015] [notice] Child 2376: Child process is running
+[Fri Apr 24 22:43:32 2015] [notice] Child 2376: Acquired the start mutex.
+[Fri Apr 24 22:43:32 2015] [notice] Child 2376: Starting 64 worker threads.
+[Fri Apr 24 22:43:32 2015] [notice] Child 2376: Starting thread to listen on port 80.
+[Fri Apr 24 22:51:21 2015] [notice] Parent: Received restart signal -- Restarting the server.
+httpd.exe: Syntax error on line 36 of C:/Program Files/Apache Software Foundation/Apache2.2/conf/httpd.conf: ServerRoot must be a valid directory
+[Fri Apr 24 22:51:21 2015] [notice] Child 2376: Exit event signaled. Child process is ending.
+[Fri Apr 24 22:51:22 2015] [notice] Child 2376: Released the start mutex
+[Fri Apr 24 22:51:23 2015] [notice] Child 2376: All worker threads have exited.
+[Fri Apr 24 22:51:23 2015] [notice] Child 2376: Child process is exiting
+httpd.exe: Could not reliably determine the server's fully qualified domain name, using 118.193.170.200 for ServerName
+[Fri Apr 24 23:01:50 2015] [warn] pid file C:/Program Files/Apache Software Foundation/Apache2.2/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Fri Apr 24 23:01:50 2015] [warn] mod_wsgi: Compiled for Python/2.7.
+[Fri Apr 24 23:01:50 2015] [warn] mod_wsgi: Runtime using Python/2.7.9.
+[Fri Apr 24 23:01:50 2015] [notice] Apache/2.2.25 (Win32) mod_wsgi/3.3 Python/2.7.9 configured -- resuming normal operations
+[Fri Apr 24 23:01:50 2015] [notice] Server built: Jul 10 2013 01:52:12
+[Fri Apr 24 23:01:50 2015] [notice] Parent: Created child process 2644
+httpd.exe: Could not reliably determine the server's fully qualified domain name, using 118.193.170.200 for ServerName
+Apache server shutdown initiated...
+ine the server's fully qualified domain name, using 118.193.170.200 for ServerName
+[Fri Apr 24 23:01:50 2015] [warn] mod_wsgi: Compiled for Python/2.7.
+[Fri Apr 24 23:01:50 2015] [warn] mod_wsgi: Runtime using Python/2.7.9.
+[Fri Apr 24 23:01:50 2015] [notice] Child 2644: Child process is running
+[Fri Apr 24 23:01:50 2015] [notice] Child 2644: Acquired the start mutex.
+[Fri Apr 24 23:01:50 2015] [notice] Child 2644: Starting 64 worker threads.
+[Fri Apr 24 23:01:50 2015] [notice] Child 2644: Starting thread to listen on port 80.
+[Fri Apr 24 23:02:33 2015] [notice] Parent: Received shutdown signal -- Shutting down the server.
+[Fri Apr 24 23:02:33 2015] [notice] Child 2644: Exit event signaled. Child process is ending.
+[Fri Apr 24 23:02:34 2015] [notice] Child 2644: Released the start mutex
+[Fri Apr 24 23:02:35 2015] [notice] Child 2644: All worker threads have exited.
+[Fri Apr 24 23:02:35 2015] [notice] Child 2644: Child process is exiting
+[Fri Apr 24 23:02:35 2015] [notice] Parent: Child process exited successfully.
+httpd.exe: Could not reliably determine the server's fully qualified domain name, using 118.193.170.200 for ServerName
+[Fri Apr 24 23:02:43 2015] [warn] mod_wsgi: Compiled for Python/2.7.
+[Fri Apr 24 23:02:43 2015] [warn] mod_wsgi: Runtime using Python/2.7.9.
+[Fri Apr 24 23:02:43 2015] [notice] Apache/2.2.25 (Win32) mod_wsgi/3.3 Python/2.7.9 configured -- resuming normal operations
+[Fri Apr 24 23:02:43 2015] [notice] Server built: Jul 10 2013 01:52:12
+[Fri Apr 24 23:02:43 2015] [notice] Parent: Created child process 2740
+httpd.exe: Could not reliably determine the server's fully qualified domain name, using 118.193.170.200 for ServerName
+Apache server interrupted...
+ determine the server's fully qualified domain name, using 118.193.170.200 for ServerName
+[Fri Apr 24 23:02:43 2015] [warn] mod_wsgi: Compiled for Python/2.7.
+[Fri Apr 24 23:02:43 2015] [warn] mod_wsgi: Runtime using Python/2.7.9.
+[Fri Apr 24 23:02:43 2015] [notice] Child 2740: Child process is running
+[Fri Apr 24 23:02:43 2015] [notice] Child 2740: Acquired the start mutex.
+[Fri Apr 24 23:02:43 2015] [notice] Child 2740: Starting 64 worker threads.
+[Fri Apr 24 23:02:43 2015] [notice] Child 2740: Starting thread to listen on port 80.
+[Fri Apr 24 23:04:35 2015] [notice] Parent: Received shutdown signal -- Shutting down the server.
+[Fri Apr 24 23:04:35 2015] [notice] Child 2740: Exit event signaled. Child process is ending.
+[Fri Apr 24 23:04:36 2015] [notice] Child 2740: Released the start mutex
+[Fri Apr 24 23:04:37 2015] [notice] Child 2740: All worker threads have exited.
+[Fri Apr 24 23:04:37 2015] [notice] Child 2740: Child process is exiting
+[Fri Apr 24 23:04:37 2015] [notice] Parent: Child process exited successfully.
+[Fri Apr 24 23:04:55 2015] [warn] mod_wsgi: Compiled for Python/2.7.
+[Fri Apr 24 23:04:55 2015] [warn] mod_wsgi: Runtime using Python/2.7.9.
+[Fri Apr 24 23:04:55 2015] [notice] Apache/2.2.25 (Win32) mod_wsgi/3.3 Python/2.7.9 configured -- resuming normal operations
+[Fri Apr 24 23:04:55 2015] [notice] Server built: Jul 10 2013 01:52:12
+[Fri Apr 24 23:04:55 2015] [notice] Parent: Created child process 2424
+Apache server shutdown initiated...
+d_wsgi: Compiled for Python/2.7.
+[Fri Apr 24 23:04:55 2015] [warn] mod_wsgi: Runtime using Python/2.7.9.
+[Fri Apr 24 23:04:55 2015] [notice] Child 2424: Child process is running
+[Fri Apr 24 23:04:55 2015] [notice] Child 2424: Acquired the start mutex.
+[Fri Apr 24 23:04:55 2015] [notice] Child 2424: Starting 64 worker threads.
+[Fri Apr 24 23:04:55 2015] [notice] Child 2424: Starting thread to listen on port 80.
+[Fri Apr 24 23:05:10 2015] [notice] Parent: Received shutdown signal -- Shutting down the server.
+[Fri Apr 24 23:05:10 2015] [notice] Child 2424: Exit event signaled. Child process is ending.
+[Fri Apr 24 23:05:10 2015] [warn] (OS 10038)在一个非套接字上尝试了一个操作。  : setsockopt(SO_UPDATE_ACCEPT_CONTEXT) failed.
+[Fri Apr 24 23:05:11 2015] [notice] Child 2424: Released the start mutex
+[Fri Apr 24 23:05:45 2015] [notice] Child 2424: Waiting 270 more seconds for 1 worker threads to finish.
+Starting the Apache2.2 service
+The Apache2.2 service is running.
+rmine the server's fully qualified domain name, using 118.193.170.200 for ServerName
+[Fri Apr 24 23:06:03 2015] [warn] pid file C:/Program Files/Apache Software Foundation/Apache2.2/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Fri Apr 24 23:06:03 2015] [warn] mod_wsgi: Compiled for Python/2.7.
+[Fri Apr 24 23:06:03 2015] [warn] mod_wsgi: Runtime using Python/2.7.9.
+[Fri Apr 24 23:06:03 2015] [notice] Apache/2.2.25 (Win32) mod_wsgi/3.3 Python/2.7.9 configured -- resuming normal operations
+[Fri Apr 24 23:06:03 2015] [notice] Server built: Jul 10 2013 01:52:12
+[Fri Apr 24 23:06:03 2015] [notice] Parent: Created child process 1860
+httpd.exe: Could not reliably determine the server's fully qualified domain name, using 118.193.170.200 for ServerName
+httpd.exe: Could not reliably determine the server's fully qualified domain name, using 118.193.170.200 for ServerName
+[Fri Apr 24 23:06:03 2015] [warn] mod_wsgi: Compiled for Python/2.7.
+[Fri Apr 24 23:06:03 2015] [warn] mod_wsgi: Runtime using Python/2.7.9.
+[Fri Apr 24 23:06:03 2015] [notice] Child 1860: Child process is running
+[Fri Apr 24 23:06:04 2015] [notice] Child 1860: Acquired the start mutex.
+[Fri Apr 24 23:06:04 2015] [notice] Child 1860: Starting 64 worker threads.
+[Fri Apr 24 23:06:04 2015] [notice] Child 1860: Starting thread to listen on port 80.
+[Fri Apr 24 23:06:20 2015] [notice] Child 2424: Waiting 240 more seconds for 1 worker threads to finish.
+[Fri Apr 24 23:06:24 2015] [notice] Child 2424: All worker threads have exited.
+[Fri Apr 24 23:06:24 2015] [notice] Child 2424: Child process is exiting
+[Fri Apr 24 23:11:13 2015] [error] [client 36.47.149.148] client sent HTTP/1.1 request without hostname (see RFC2616 section 14.23): /
+[Fri Apr 24 23:16:30 2015] [error] [client 117.136.8.230] mod_wsgi (pid=1860): Exception occurred processing WSGI script 'C:/wash/wsgi_handler.wsgi'., referer: http://getwash.cn/
+[Fri Apr 24 23:16:30 2015] [error] [client 117.136.8.230] IOError: failed to write data, referer: http://getwash.cn/
+[Fri Apr 24 23:17:02 2015] [error] [client 117.136.8.230] mod_wsgi (pid=1860): Exception occurred processing WSGI script 'C:/wash/wsgi_handler.wsgi'., referer: http://getwash.cn/
+[Fri Apr 24 23:17:02 2015] [error] [client 117.136.8.230] IOError: failed to write data, referer: http://getwash.cn/
+[Fri Apr 24 23:17:03 2015] [error] [client 117.136.8.230] mod_wsgi (pid=1860): Exception occurred processing WSGI script 'C:/wash/wsgi_handler.wsgi'., referer: http://getwash.cn/
+[Fri Apr 24 23:17:03 2015] [error] [client 117.136.8.230] IOError: failed to write data, referer: http://getwash.cn/
+[Fri Apr 24 23:28:25 2015] [error] [client 112.65.223.24] mod_wsgi (pid=1860): Exception occurred processing WSGI script 'C:/wash/wsgi_handler.wsgi'., referer: http://yijiecloud.com/
+[Fri Apr 24 23:28:25 2015] [error] [client 112.65.223.24] IOError: failed to write data, referer: http://yijiecloud.com/
+[Fri Apr 24 23:32:51 2015] [error] [client 112.65.223.24] mod_wsgi (pid=1860): Exception occurred processing WSGI script 'C:/wash/wsgi_handler.wsgi'., referer: http://yijiecloud.com/
+[Fri Apr 24 23:32:51 2015] [error] [client 112.65.223.24] IOError: failed to write data, referer: http://yijiecloud.com/
+[Fri Apr 24 23:34:07 2015] [error] [client 112.65.223.34] mod_wsgi (pid=1860): Exception occurred processing WSGI script 'C:/wash/wsgi_handler.wsgi'., referer: http://getwash.cn/
+[Fri Apr 24 23:34:07 2015] [error] [client 112.65.223.34] IOError: failed to write data, referer: http://getwash.cn/
+[Sat Apr 25 00:13:48 2015] [error] [client 116.228.250.1] mod_wsgi (pid=1860): Exception occurred processing WSGI script 'C:/wash/wsgi_handler.wsgi'., referer: http://118.193.170.200/
+[Sat Apr 25 00:13:48 2015] [error] [client 116.228.250.1] IOError: failed to write data, referer: http://118.193.170.200/
+[Sat Apr 25 00:30:23 2015] [error] [client 141.70.81.136] mod_wsgi (pid=1860): Exception occurred processing WSGI script 'C:/wash/wsgi_handler.wsgi'., referer: http://118.193.170.200/
+[Sat Apr 25 00:30:23 2015] [error] [client 141.70.81.136] IOError: failed to write data, referer: http://118.193.170.200/
+[Sat Apr 25 00:30:23 2015] [error] [client 141.70.81.136] mod_wsgi (pid=1860): Exception occurred processing WSGI script 'C:/wash/wsgi_handler.wsgi'., referer: http://118.193.170.200/
+[Sat Apr 25 00:30:23 2015] [error] [client 141.70.81.136] IOError: failed to write data, referer: http://118.193.170.200/
+[Sat Apr 25 13:21:42 2015] [error] [client 223.104.5.202] mod_wsgi (pid=1860): Exception occurred processing WSGI script 'C:/wash/wsgi_handler.wsgi'., referer: http://getwash.cn/
+[Sat Apr 25 13:21:42 2015] [error] [client 223.104.5.202] IOError: failed to write data, referer: http://getwash.cn/
+[Sat Apr 25 13:21:42 2015] [error] [client 223.104.5.202] mod_wsgi (pid=1860): Exception occurred processing WSGI script 'C:/wash/wsgi_handler.wsgi'., referer: http://getwash.cn/
+[Sat Apr 25 13:21:42 2015] [error] [client 223.104.5.202] IOError: failed to write data, referer: http://getwash.cn/
+[Sat Apr 25 15:53:10 2015] [notice] Parent: Received restart signal -- Restarting the server.
+[Sat Apr 25 15:53:10 2015] [notice] Child 1860: Exit event signaled. Child process is ending.
+httpd.exe: Could not reliably determine the server's fully qualified domain name, using 118.193.170.200 for ServerName
+[Sat Apr 25 15:53:10 2015] [warn] mod_wsgi: Compiled for Python/2.7.
+[Sat Apr 25 15:53:10 2015] [warn] mod_wsgi: Runtime using Python/2.7.9.
+[Sat Apr 25 15:53:10 2015] [notice] Apache/2.2.25 (Win32) mod_wsgi/3.3 Python/2.7.9 configured -- resuming normal operations
+[Sat Apr 25 15:53:10 2015] [notice] Server built: Jul 10 2013 01:52:12
+[Sat Apr 25 15:53:10 2015] [notice] Parent: Created child process 2168
+httpd.exe: Could not reliably determine the server's fully qualified domain name, using 118.193.170.200 for ServerName
+httpd.exe: Could not reliably determine the server's fully qualified domain name, using 118.193.170.200 for ServerName
+[Sat Apr 25 15:53:10 2015] [warn] mod_wsgi: Compiled for Python/2.7.
+[Sat Apr 25 15:53:10 2015] [warn] mod_wsgi: Runtime using Python/2.7.9.
+[Sat Apr 25 15:53:10 2015] [notice] Child 2168: Child process is running
+[Sat Apr 25 15:53:11 2015] [notice] Child 1860: Released the start mutex
+[Sat Apr 25 15:53:11 2015] [notice] Child 2168: Acquired the start mutex.
+[Sat Apr 25 15:53:11 2015] [notice] Child 2168: Starting 64 worker threads.
+[Sat Apr 25 15:53:12 2015] [notice] Child 1860: All worker threads have exited.
+[Sat Apr 25 15:53:12 2015] [notice] Child 2168: Starting thread to listen on port 80.
+[Sat Apr 25 15:53:12 2015] [notice] Child 1860: Child process is exiting
+[Sat Apr 25 15:55:28 2015] [notice] Parent: Received restart signal -- Restarting the server.
+[Sat Apr 25 15:55:28 2015] [notice] Child 2168: Exit event signaled. Child process is ending.
+httpd.exe: Could not reliably determine the server's fully qualified domain name, using 118.193.170.200 for ServerName
+[Sat Apr 25 15:55:28 2015] [warn] mod_wsgi: Compiled for Python/2.7.
+[Sat Apr 25 15:55:28 2015] [warn] mod_wsgi: Runtime using Python/2.7.9.
+[Sat Apr 25 15:55:28 2015] [notice] Apache/2.2.25 (Win32) mod_wsgi/3.3 Python/2.7.9 configured -- resuming normal operations
+[Sat Apr 25 15:55:28 2015] [notice] Server built: Jul 10 2013 01:52:12
+[Sat Apr 25 15:55:28 2015] [notice] Parent: Created child process 3440
+httpd.exe: Could not reliably determine the server's fully qualified domain name, using 118.193.170.200 for ServerName
+httpd.exe: Could not reliably determine the server's fully qualified domain name, using 118.193.170.200 for ServerName
+[Sat Apr 25 15:55:28 2015] [warn] mod_wsgi: Compiled for Python/2.7.
+[Sat Apr 25 15:55:28 2015] [warn] mod_wsgi: Runtime using Python/2.7.9.
+[Sat Apr 25 15:55:28 2015] [notice] Child 3440: Child process is running
+[Sat Apr 25 15:55:29 2015] [notice] Child 2168: Released the start mutex
+[Sat Apr 25 15:55:29 2015] [notice] Child 3440: Acquired the start mutex.
+[Sat Apr 25 15:55:29 2015] [notice] Child 3440: Starting 64 worker threads.
+[Sat Apr 25 15:55:29 2015] [notice] Child 3440: Starting thread to listen on port 80.
+[Sat Apr 25 15:55:30 2015] [notice] Child 2168: All worker threads have exited.
+[Sat Apr 25 15:55:30 2015] [notice] Child 2168: Child process is exiting
+[Sun Apr 26 01:21:56 2015] [error] [client 62.210.113.189] client denied by server configuration: C:/Program Files/Apache Software Foundation/Apache2
+[Sun Apr 26 10:09:09 2015] [notice] Parent: Received restart signal -- Restarting the server.
+[Sun Apr 26 10:09:09 2015] [notice] Child 3440: Exit event signaled. Child process is ending.
+httpd.exe: Could not reliably determine the server's fully qualified domain name, using 118.193.170.200 for ServerName
+[Sun Apr 26 10:09:09 2015] [warn] mod_wsgi: Compiled for Python/2.7.
+[Sun Apr 26 10:09:09 2015] [warn] mod_wsgi: Runtime using Python/2.7.9.
+[Sun Apr 26 10:09:09 2015] [notice] Apache/2.2.25 (Win32) mod_wsgi/3.3 Python/2.7.9 configured -- resuming normal operations
+[Sun Apr 26 10:09:09 2015] [notice] Server built: Jul 10 2013 01:52:12
+[Sun Apr 26 10:09:09 2015] [notice] Parent: Created child process 1056
+httpd.exe: Could not reliably determine the server's fully qualified domain name, using 118.193.170.200 for ServerName
+httpd.exe: Could not reliably determine the server's fully qualified domain name, using 118.193.170.200 for ServerName
+[Sun Apr 26 10:09:09 2015] [warn] mod_wsgi: Compiled for Python/2.7.
+[Sun Apr 26 10:09:09 2015] [warn] mod_wsgi: Runtime using Python/2.7.9.
+[Sun Apr 26 10:09:09 2015] [notice] Child 1056: Child process is running
+[Sun Apr 26 10:09:10 2015] [notice] Child 3440: Released the start mutex
+[Sun Apr 26 10:09:10 2015] [notice] Child 1056: Acquired the start mutex.
+[Sun Apr 26 10:09:10 2015] [notice] Child 1056: Starting 64 worker threads.
+[Sun Apr 26 10:09:10 2015] [notice] Child 1056: Starting thread to listen on port 80.
+[Sun Apr 26 10:09:11 2015] [notice] Child 3440: All worker threads have exited.
+[Sun Apr 26 10:09:11 2015] [notice] Child 3440: Child process is exiting
+[Sun Apr 26 10:09:26 2015] [notice] Parent: Received restart signal -- Restarting the server.
+[Sun Apr 26 10:09:26 2015] [notice] Child 1056: Exit event signaled. Child process is ending.
+httpd.exe: Could not reliably determine the server's fully qualified domain name, using 118.193.170.200 for ServerName
+[Sun Apr 26 10:09:26 2015] [warn] mod_wsgi: Compiled for Python/2.7.
+[Sun Apr 26 10:09:26 2015] [warn] mod_wsgi: Runtime using Python/2.7.9.
+[Sun Apr 26 10:09:26 2015] [notice] Apache/2.2.25 (Win32) mod_wsgi/3.3 Python/2.7.9 configured -- resuming normal operations
+[Sun Apr 26 10:09:26 2015] [notice] Server built: Jul 10 2013 01:52:12
+[Sun Apr 26 10:09:26 2015] [notice] Parent: Created child process 2484
+httpd.exe: Could not reliably determine the server's fully qualified domain name, using 118.193.170.200 for ServerName
+httpd.exe: Could not reliably determine the server's fully qualified domain name, using 118.193.170.200 for ServerName
+[Sun Apr 26 10:09:26 2015] [warn] mod_wsgi: Compiled for Python/2.7.
+[Sun Apr 26 10:09:26 2015] [warn] mod_wsgi: Runtime using Python/2.7.9.
+[Sun Apr 26 10:09:26 2015] [notice] Child 2484: Child process is running
+[Sun Apr 26 10:09:27 2015] [notice] Child 1056: Released the start mutex
+[Sun Apr 26 10:09:27 2015] [notice] Child 2484: Acquired the start mutex.
+[Sun Apr 26 10:09:27 2015] [notice] Child 2484: Starting 64 worker threads.
+[Sun Apr 26 10:09:28 2015] [notice] Child 1056: All worker threads have exited.
+[Sun Apr 26 10:09:28 2015] [notice] Child 1056: Child process is exiting
+[Sun Apr 26 10:09:28 2015] [notice] Child 2484: Starting thread to listen on port 80.
+[Sun Apr 26 18:20:15 2015] [error] [client 112.65.223.10] mod_wsgi (pid=2484): Exception occurred processing WSGI script 'C:/wash/wsgi_handler.wsgi'.
+[Sun Apr 26 18:20:15 2015] [error] [client 112.65.223.10] Traceback (most recent call last):
+[Sun Apr 26 18:20:15 2015] [error] [client 112.65.223.10]   File "C:\\Python27\\lib\\site-packages\\flask\\app.py", line 1836, in __call__
+[Sun Apr 26 18:20:15 2015] [error] [client 112.65.223.10]     return self.wsgi_app(environ, start_response)
+[Sun Apr 26 18:20:15 2015] [error] [client 112.65.223.10]   File "C:\\Python27\\lib\\site-packages\\flask\\app.py", line 1820, in wsgi_app
+[Sun Apr 26 18:20:15 2015] [error] [client 112.65.223.10]     response = self.make_response(self.handle_exception(e))
+[Sun Apr 26 18:20:15 2015] [error] [client 112.65.223.10]   File "C:\\Python27\\lib\\site-packages\\flask\\app.py", line 1403, in handle_exception
+[Sun Apr 26 18:20:15 2015] [error] [client 112.65.223.10]     reraise(exc_type, exc_value, tb)
+[Sun Apr 26 18:20:15 2015] [error] [client 112.65.223.10]   File "C:\\Python27\\lib\\site-packages\\flask\\app.py", line 1817, in wsgi_app
+[Sun Apr 26 18:20:15 2015] [error] [client 112.65.223.10]     response = self.full_dispatch_request()
+[Sun Apr 26 18:20:15 2015] [error] [client 112.65.223.10]   File "C:\\Python27\\lib\\site-packages\\flask\\app.py", line 1477, in full_dispatch_request
+[Sun Apr 26 18:20:15 2015] [error] [client 112.65.223.10]     rv = self.handle_user_exception(e)
+[Sun Apr 26 18:20:15 2015] [error] [client 112.65.223.10]   File "C:\\Python27\\lib\\site-packages\\flask\\app.py", line 1381, in handle_user_exception
+[Sun Apr 26 18:20:15 2015] [error] [client 112.65.223.10]     reraise(exc_type, exc_value, tb)
+[Sun Apr 26 18:20:15 2015] [error] [client 112.65.223.10]   File "C:\\Python27\\lib\\site-packages\\flask\\app.py", line 1475, in full_dispatch_request
+[Sun Apr 26 18:20:15 2015] [error] [client 112.65.223.10]     rv = self.dispatch_request()
+[Sun Apr 26 18:20:15 2015] [error] [client 112.65.223.10]   File "C:\\Python27\\lib\\site-packages\\flask\\app.py", line 1461, in dispatch_request
+[Sun Apr 26 18:20:15 2015] [error] [client 112.65.223.10]     return self.view_functions[rule.endpoint](**req.view_args)
+[Sun Apr 26 18:20:15 2015] [error] [client 112.65.223.10]   File "C:/wash\\application.py", line 82, in getBackOrder
+[Sun Apr 26 18:20:15 2015] [error] [client 112.65.223.10]     return render_template("back.html", orders = orders)
+[Sun Apr 26 18:20:15 2015] [error] [client 112.65.223.10]   File "C:\\Python27\\lib\\site-packages\\flask\\templating.py", line 128, in render_template
+[Sun Apr 26 18:20:15 2015] [error] [client 112.65.223.10]     context, ctx.app)
+[Sun Apr 26 18:20:15 2015] [error] [client 112.65.223.10]   File "C:\\Python27\\lib\\site-packages\\flask\\templating.py", line 110, in _render
+[Sun Apr 26 18:20:15 2015] [error] [client 112.65.223.10]     rv = template.render(context)
+[Sun Apr 26 18:20:15 2015] [error] [client 112.65.223.10]   File "C:\\Python27\\lib\\site-packages\\jinja2\\environment.py", line 969, in render
+[Sun Apr 26 18:20:15 2015] [error] [client 112.65.223.10]     return self.environment.handle_exception(exc_info, True)
+[Sun Apr 26 18:20:15 2015] [error] [client 112.65.223.10]   File "C:\\Python27\\lib\\site-packages\\jinja2\\environment.py", line 742, in handle_exception
+[Sun Apr 26 18:20:15 2015] [error] [client 112.65.223.10]     reraise(exc_type, exc_value, tb)
+[Sun Apr 26 18:20:15 2015] [error] [client 112.65.223.10]   File "C:\\wash\\templates\\back.html", line 170, in top-level template code
+[Sun Apr 26 18:20:15 2015] [error] [client 112.65.223.10]     $.post("{{ url_for('removeOrder') }}", {id: id}, function() {window.location.href = '';});
+[Sun Apr 26 18:20:15 2015] [error] [client 112.65.223.10]   File "C:\\Python27\\lib\\site-packages\\flask\\helpers.py", line 312, in url_for
+[Sun Apr 26 18:20:15 2015] [error] [client 112.65.223.10]     return appctx.app.handle_url_build_error(error, endpoint, values)
+[Sun Apr 26 18:20:15 2015] [error] [client 112.65.223.10]   File "C:\\Python27\\lib\\site-packages\\flask\\app.py", line 1641, in handle_url_build_error
+[Sun Apr 26 18:20:15 2015] [error] [client 112.65.223.10]     reraise(exc_type, exc_value, tb)
+[Sun Apr 26 18:20:15 2015] [error] [client 112.65.223.10]   File "C:\\Python27\\lib\\site-packages\\flask\\helpers.py", line 305, in url_for
+[Sun Apr 26 18:20:15 2015] [error] [client 112.65.223.10]     force_external=external)
+[Sun Apr 26 18:20:15 2015] [error] [client 112.65.223.10]   File "C:\\Python27\\lib\\site-packages\\werkzeug\\routing.py", line 1678, in build
+[Sun Apr 26 18:20:15 2015] [error] [client 112.65.223.10]     raise BuildError(endpoint, values, method)
+[Sun Apr 26 18:20:15 2015] [error] [client 112.65.223.10] BuildError: ('removeOrder', {}, None)
+[Sun Apr 26 18:20:17 2015] [error] [client 112.65.223.10] mod_wsgi (pid=2484): Exception occurred processing WSGI script 'C:/wash/wsgi_handler.wsgi'.
+[Sun Apr 26 18:20:17 2015] [error] [client 112.65.223.10] Traceback (most recent call last):
+[Sun Apr 26 18:20:17 2015] [error] [client 112.65.223.10]   File "C:\\Python27\\lib\\site-packages\\flask\\app.py", line 1836, in __call__
+[Sun Apr 26 18:20:17 2015] [error] [client 112.65.223.10]     return self.wsgi_app(environ, start_response)
+[Sun Apr 26 18:20:17 2015] [error] [client 112.65.223.10]   File "C:\\Python27\\lib\\site-packages\\flask\\app.py", line 1820, in wsgi_app
+[Sun Apr 26 18:20:17 2015] [error] [client 112.65.223.10]     response = self.make_response(self.handle_exception(e))
+[Sun Apr 26 18:20:17 2015] [error] [client 112.65.223.10]   File "C:\\Python27\\lib\\site-packages\\flask\\app.py", line 1403, in handle_exception
+[Sun Apr 26 18:20:17 2015] [error] [client 112.65.223.10]     reraise(exc_type, exc_value, tb)
+[Sun Apr 26 18:20:17 2015] [error] [client 112.65.223.10]   File "C:\\Python27\\lib\\site-packages\\flask\\app.py", line 1817, in wsgi_app
+[Sun Apr 26 18:20:17 2015] [error] [client 112.65.223.10]     response = self.full_dispatch_request()
+[Sun Apr 26 18:20:17 2015] [error] [client 112.65.223.10]   File "C:\\Python27\\lib\\site-packages\\flask\\app.py", line 1477, in full_dispatch_request
+[Sun Apr 26 18:20:17 2015] [error] [client 112.65.223.10]     rv = self.handle_user_exception(e)
+[Sun Apr 26 18:20:17 2015] [error] [client 112.65.223.10]   File "C:\\Python27\\lib\\site-packages\\flask\\app.py", line 1381, in handle_user_exception
+[Sun Apr 26 18:20:17 2015] [error] [client 112.65.223.10]     reraise(exc_type, exc_value, tb)
+[Sun Apr 26 18:20:17 2015] [error] [client 112.65.223.10]   File "C:\\Python27\\lib\\site-packages\\flask\\app.py", line 1475, in full_dispatch_request
+[Sun Apr 26 18:20:17 2015] [error] [client 112.65.223.10]     rv = self.dispatch_request()
+[Sun Apr 26 18:20:17 2015] [error] [client 112.65.223.10]   File "C:\\Python27\\lib\\site-packages\\flask\\app.py", line 1461, in dispatch_request
+[Sun Apr 26 18:20:17 2015] [error] [client 112.65.223.10]     return self.view_functions[rule.endpoint](**req.view_args)
+[Sun Apr 26 18:20:17 2015] [error] [client 112.65.223.10]   File "C:/wash\\application.py", line 82, in getBackOrder
+[Sun Apr 26 18:20:17 2015] [error] [client 112.65.223.10]     return render_template("back.html", orders = orders)
+[Sun Apr 26 18:20:17 2015] [error] [client 112.65.223.10]   File "C:\\Python27\\lib\\site-packages\\flask\\templating.py", line 128, in render_template
+[Sun Apr 26 18:20:17 2015] [error] [client 112.65.223.10]     context, ctx.app)
+[Sun Apr 26 18:20:17 2015] [error] [client 112.65.223.10]   File "C:\\Python27\\lib\\site-packages\\flask\\templating.py", line 110, in _render
+[Sun Apr 26 18:20:17 2015] [error] [client 112.65.223.10]     rv = template.render(context)
+[Sun Apr 26 18:20:17 2015] [error] [client 112.65.223.10]   File "C:\\Python27\\lib\\site-packages\\jinja2\\environment.py", line 969, in render
+[Sun Apr 26 18:20:17 2015] [error] [client 112.65.223.10]     return self.environment.handle_exception(exc_info, True)
+[Sun Apr 26 18:20:17 2015] [error] [client 112.65.223.10]   File "C:\\Python27\\lib\\site-packages\\jinja2\\environment.py", line 742, in handle_exception
+[Sun Apr 26 18:20:17 2015] [error] [client 112.65.223.10]     reraise(exc_type, exc_value, tb)
+[Sun Apr 26 18:20:17 2015] [error] [client 112.65.223.10]   File "C:\\wash\\templates\\back.html", line 170, in top-level template code
+[Sun Apr 26 18:20:17 2015] [error] [client 112.65.223.10]     $.post("{{ url_for('removeOrder') }}", {id: id}, function() {window.location.href = '';});
+[Sun Apr 26 18:20:17 2015] [error] [client 112.65.223.10]   File "C:\\Python27\\lib\\site-packages\\flask\\helpers.py", line 312, in url_for
+[Sun Apr 26 18:20:17 2015] [error] [client 112.65.223.10]     return appctx.app.handle_url_build_error(error, endpoint, values)
+[Sun Apr 26 18:20:17 2015] [error] [client 112.65.223.10]   File "C:\\Python27\\lib\\site-packages\\flask\\app.py", line 1641, in handle_url_build_error
+[Sun Apr 26 18:20:17 2015] [error] [client 112.65.223.10]     reraise(exc_type, exc_value, tb)
+[Sun Apr 26 18:20:17 2015] [error] [client 112.65.223.10]   File "C:\\Python27\\lib\\site-packages\\flask\\helpers.py", line 305, in url_for
+[Sun Apr 26 18:20:17 2015] [error] [client 112.65.223.10]     force_external=external)
+[Sun Apr 26 18:20:17 2015] [error] [client 112.65.223.10]   File "C:\\Python27\\lib\\site-packages\\werkzeug\\routing.py", line 1678, in build
+[Sun Apr 26 18:20:17 2015] [error] [client 112.65.223.10]     raise BuildError(endpoint, values, method)
+[Sun Apr 26 18:20:17 2015] [error] [client 112.65.223.10] BuildError: ('removeOrder', {}, None)
+[Sun Apr 26 18:20:23 2015] [notice] Parent: Received restart signal -- Restarting the server.
+[Sun Apr 26 18:20:23 2015] [notice] Child 2484: Exit event signaled. Child process is ending.
+httpd.exe: Could not reliably determine the server's fully qualified domain name, using 118.193.170.200 for ServerName
+[Sun Apr 26 18:20:23 2015] [warn] mod_wsgi: Compiled for Python/2.7.
+[Sun Apr 26 18:20:23 2015] [warn] mod_wsgi: Runtime using Python/2.7.9.
+[Sun Apr 26 18:20:23 2015] [notice] Apache/2.2.25 (Win32) mod_wsgi/3.3 Python/2.7.9 configured -- resuming normal operations
+[Sun Apr 26 18:20:23 2015] [notice] Server built: Jul 10 2013 01:52:12
+[Sun Apr 26 18:20:23 2015] [notice] Parent: Created child process 2792
+httpd.exe: Could not reliably determine the server's fully qualified domain name, using 118.193.170.200 for ServerName
+httpd.exe: Could not reliably determine the server's fully qualified domain name, using 118.193.170.200 for ServerName
+[Sun Apr 26 18:20:23 2015] [warn] mod_wsgi: Compiled for Python/2.7.
+[Sun Apr 26 18:20:23 2015] [warn] mod_wsgi: Runtime using Python/2.7.9.
+[Sun Apr 26 18:20:23 2015] [notice] Child 2792: Child process is running
+[Sun Apr 26 18:20:24 2015] [notice] Child 2484: Released the start mutex
+[Sun Apr 26 18:20:24 2015] [notice] Child 2792: Acquired the start mutex.
+[Sun Apr 26 18:20:24 2015] [notice] Child 2792: Starting 64 worker threads.
+[Sun Apr 26 18:20:24 2015] [notice] Child 2792: Starting thread to listen on port 80.
+[Sun Apr 26 18:20:29 2015] [error] [client 112.65.223.10] mod_wsgi (pid=2484): Exception occurred processing WSGI script 'C:/wash/wsgi_handler.wsgi'.
+[Sun Apr 26 18:20:29 2015] [error] [client 112.65.223.10] Traceback (most recent call last):
+[Sun Apr 26 18:20:29 2015] [error] [client 112.65.223.10]   File "C:\\Python27\\lib\\site-packages\\flask\\app.py", line 1836, in __call__
+[Sun Apr 26 18:20:29 2015] [error] [client 112.65.223.10]     return self.wsgi_app(environ, start_response)
+[Sun Apr 26 18:20:29 2015] [error] [client 112.65.223.10]   File "C:\\Python27\\lib\\site-packages\\flask\\app.py", line 1820, in wsgi_app
+[Sun Apr 26 18:20:29 2015] [error] [client 112.65.223.10]     response = self.make_response(self.handle_exception(e))
+[Sun Apr 26 18:20:29 2015] [error] [client 112.65.223.10]   File "C:\\Python27\\lib\\site-packages\\flask\\app.py", line 1403, in handle_exception
+[Sun Apr 26 18:20:29 2015] [error] [client 112.65.223.10]     reraise(exc_type, exc_value, tb)
+[Sun Apr 26 18:20:29 2015] [error] [client 112.65.223.10]   File "C:\\Python27\\lib\\site-packages\\flask\\app.py", line 1817, in wsgi_app
+[Sun Apr 26 18:20:29 2015] [error] [client 112.65.223.10]     response = self.full_dispatch_request()
+[Sun Apr 26 18:20:29 2015] [error] [client 112.65.223.10]   File "C:\\Python27\\lib\\site-packages\\flask\\app.py", line 1477, in full_dispatch_request
+[Sun Apr 26 18:20:29 2015] [error] [client 112.65.223.10]     rv = self.handle_user_exception(e)
+[Sun Apr 26 18:20:29 2015] [error] [client 112.65.223.10]   File "C:\\Python27\\lib\\site-packages\\flask\\app.py", line 1381, in handle_user_exception
+[Sun Apr 26 18:20:29 2015] [error] [client 112.65.223.10]     reraise(exc_type, exc_value, tb)
+[Sun Apr 26 18:20:29 2015] [error] [client 112.65.223.10]   File "C:\\Python27\\lib\\site-packages\\flask\\app.py", line 1475, in full_dispatch_request
+[Sun Apr 26 18:20:29 2015] [error] [client 112.65.223.10]     rv = self.dispatch_request()
+[Sun Apr 26 18:20:29 2015] [error] [client 112.65.223.10]   File "C:\\Python27\\lib\\site-packages\\flask\\app.py", line 1461, in dispatch_request
+[Sun Apr 26 18:20:29 2015] [error] [client 112.65.223.10]     return self.view_functions[rule.endpoint](**req.view_args)
+[Sun Apr 26 18:20:29 2015] [error] [client 112.65.223.10]   File "C:/wash\\application.py", line 82, in getBackOrder
+[Sun Apr 26 18:20:29 2015] [error] [client 112.65.223.10]     return render_template("back.html", orders = orders)
+[Sun Apr 26 18:20:29 2015] [error] [client 112.65.223.10]   File "C:\\Python27\\lib\\site-packages\\flask\\templating.py", line 128, in render_template
+[Sun Apr 26 18:20:29 2015] [error] [client 112.65.223.10]     context, ctx.app)
+[Sun Apr 26 18:20:29 2015] [error] [client 112.65.223.10]   File "C:\\Python27\\lib\\site-packages\\flask\\templating.py", line 110, in _render
+[Sun Apr 26 18:20:29 2015] [error] [client 112.65.223.10]     rv = template.render(context)
+[Sun Apr 26 18:20:29 2015] [error] [client 112.65.223.10]   File "C:\\Python27\\lib\\site-packages\\jinja2\\environment.py", line 969, in render
+[Sun Apr 26 18:20:29 2015] [error] [client 112.65.223.10]     return self.environment.handle_exception(exc_info, True)
+[Sun Apr 26 18:20:29 2015] [error] [client 112.65.223.10]   File "C:\\Python27\\lib\\site-packages\\jinja2\\environment.py", line 742, in handle_exception
+[Sun Apr 26 18:20:29 2015] [error] [client 112.65.223.10]     reraise(exc_type, exc_value, tb)
+[Sun Apr 26 18:20:29 2015] [error] [client 112.65.223.10]   File "C:\\wash\\templates\\back.html", line 170, in top-level template code
+[Sun Apr 26 18:20:29 2015] [error] [client 112.65.223.10]     $.post("{{ url_for('removeOrder') }}", {id: id}, function() {window.location.href = '';});
+[Sun Apr 26 18:20:29 2015] [error] [client 112.65.223.10]   File "C:\\Python27\\lib\\site-packages\\flask\\helpers.py", line 312, in url_for
+[Sun Apr 26 18:20:29 2015] [error] [client 112.65.223.10]     return appctx.app.handle_url_build_error(error, endpoint, values)
+[Sun Apr 26 18:20:29 2015] [error] [client 112.65.223.10]   File "C:\\Python27\\lib\\site-packages\\flask\\app.py", line 1641, in handle_url_build_error
+[Sun Apr 26 18:20:29 2015] [error] [client 112.65.223.10]     reraise(exc_type, exc_value, tb)
+[Sun Apr 26 18:20:29 2015] [error] [client 112.65.223.10]   File "C:\\Python27\\lib\\site-packages\\flask\\helpers.py", line 305, in url_for
+[Sun Apr 26 18:20:29 2015] [error] [client 112.65.223.10]     force_external=external)
+[Sun Apr 26 18:20:29 2015] [error] [client 112.65.223.10]   File "C:\\Python27\\lib\\site-packages\\werkzeug\\routing.py", line 1678, in build
+[Sun Apr 26 18:20:29 2015] [error] [client 112.65.223.10]     raise BuildError(endpoint, values, method)
+[Sun Apr 26 18:20:29 2015] [error] [client 112.65.223.10] BuildError: ('removeOrder', {}, None)
+[Sun Apr 26 18:20:30 2015] [error] [client 112.65.223.10] mod_wsgi (pid=2484): Exception occurred processing WSGI script 'C:/wash/wsgi_handler.wsgi'.
+[Sun Apr 26 18:20:30 2015] [error] [client 112.65.223.10] Traceback (most recent call last):
+[Sun Apr 26 18:20:30 2015] [error] [client 112.65.223.10]   File "C:\\Python27\\lib\\site-packages\\flask\\app.py", line 1836, in __call__
+[Sun Apr 26 18:20:30 2015] [error] [client 112.65.223.10]     return self.wsgi_app(environ, start_response)
+[Sun Apr 26 18:20:30 2015] [error] [client 112.65.223.10]   File "C:\\Python27\\lib\\site-packages\\flask\\app.py", line 1820, in wsgi_app
+[Sun Apr 26 18:20:30 2015] [error] [client 112.65.223.10]     response = self.make_response(self.handle_exception(e))
+[Sun Apr 26 18:20:30 2015] [error] [client 112.65.223.10]   File "C:\\Python27\\lib\\site-packages\\flask\\app.py", line 1403, in handle_exception
+[Sun Apr 26 18:20:30 2015] [error] [client 112.65.223.10]     reraise(exc_type, exc_value, tb)
+[Sun Apr 26 18:20:30 2015] [error] [client 112.65.223.10]   File "C:\\Python27\\lib\\site-packages\\flask\\app.py", line 1817, in wsgi_app
+[Sun Apr 26 18:20:30 2015] [error] [client 112.65.223.10]     response = self.full_dispatch_request()
+[Sun Apr 26 18:20:30 2015] [error] [client 112.65.223.10]   File "C:\\Python27\\lib\\site-packages\\flask\\app.py", line 1477, in full_dispatch_request
+[Sun Apr 26 18:20:30 2015] [error] [client 112.65.223.10]     rv = self.handle_user_exception(e)
+[Sun Apr 26 18:20:30 2015] [error] [client 112.65.223.10]   File "C:\\Python27\\lib\\site-packages\\flask\\app.py", line 1381, in handle_user_exception
+[Sun Apr 26 18:20:30 2015] [error] [client 112.65.223.10]     reraise(exc_type, exc_value, tb)
+[Sun Apr 26 18:20:30 2015] [error] [client 112.65.223.10]   File "C:\\Python27\\lib\\site-packages\\flask\\app.py", line 1475, in full_dispatch_request
+[Sun Apr 26 18:20:30 2015] [error] [client 112.65.223.10]     rv = self.dispatch_request()
+[Sun Apr 26 18:20:30 2015] [error] [client 112.65.223.10]   File "C:\\Python27\\lib\\site-packages\\flask\\app.py", line 1461, in dispatch_request
+[Sun Apr 26 18:20:30 2015] [error] [client 112.65.223.10]     return self.view_functions[rule.endpoint](**req.view_args)
+[Sun Apr 26 18:20:30 2015] [error] [client 112.65.223.10]   File "C:/wash\\application.py", line 82, in getBackOrder
+[Sun Apr 26 18:20:30 2015] [error] [client 112.65.223.10]     return render_template("back.html", orders = orders)
+[Sun Apr 26 18:20:30 2015] [error] [client 112.65.223.10]   File "C:\\Python27\\lib\\site-packages\\flask\\templating.py", line 128, in render_template
+[Sun Apr 26 18:20:30 2015] [error] [client 112.65.223.10]     context, ctx.app)
+[Sun Apr 26 18:20:30 2015] [error] [client 112.65.223.10]   File "C:\\Python27\\lib\\site-packages\\flask\\templating.py", line 110, in _render
+[Sun Apr 26 18:20:30 2015] [error] [client 112.65.223.10]     rv = template.render(context)
+[Sun Apr 26 18:20:30 2015] [error] [client 112.65.223.10]   File "C:\\Python27\\lib\\site-packages\\jinja2\\environment.py", line 969, in render
+[Sun Apr 26 18:20:30 2015] [error] [client 112.65.223.10]     return self.environment.handle_exception(exc_info, True)
+[Sun Apr 26 18:20:30 2015] [error] [client 112.65.223.10]   File "C:\\Python27\\lib\\site-packages\\jinja2\\environment.py", line 742, in handle_exception
+[Sun Apr 26 18:20:30 2015] [error] [client 112.65.223.10]     reraise(exc_type, exc_value, tb)
+[Sun Apr 26 18:20:30 2015] [error] [client 112.65.223.10]   File "C:\\wash\\templates\\back.html", line 170, in top-level template code
+[Sun Apr 26 18:20:30 2015] [error] [client 112.65.223.10]     $.post("{{ url_for('removeOrder') }}", {id: id}, function() {window.location.href = '';});
+[Sun Apr 26 18:20:30 2015] [error] [client 112.65.223.10]   File "C:\\Python27\\lib\\site-packages\\flask\\helpers.py", line 312, in url_for
+[Sun Apr 26 18:20:30 2015] [error] [client 112.65.223.10]     return appctx.app.handle_url_build_error(error, endpoint, values)
+[Sun Apr 26 18:20:30 2015] [error] [client 112.65.223.10]   File "C:\\Python27\\lib\\site-packages\\flask\\app.py", line 1641, in handle_url_build_error
+[Sun Apr 26 18:20:30 2015] [error] [client 112.65.223.10]     reraise(exc_type, exc_value, tb)
+[Sun Apr 26 18:20:30 2015] [error] [client 112.65.223.10]   File "C:\\Python27\\lib\\site-packages\\flask\\helpers.py", line 305, in url_for
+[Sun Apr 26 18:20:30 2015] [error] [client 112.65.223.10]     force_external=external)
+[Sun Apr 26 18:20:30 2015] [error] [client 112.65.223.10]   File "C:\\Python27\\lib\\site-packages\\werkzeug\\routing.py", line 1678, in build
+[Sun Apr 26 18:20:30 2015] [error] [client 112.65.223.10]     raise BuildError(endpoint, values, method)
+[Sun Apr 26 18:20:30 2015] [error] [client 112.65.223.10] BuildError: ('removeOrder', {}, None)
+[Sun Apr 26 18:20:33 2015] [notice] Child 2484: All worker threads have exited.
+[Sun Apr 26 18:20:33 2015] [notice] Child 2484: Child process is exiting
+[Sun Apr 26 21:01:18 2015] [error] [client 112.65.223.7] mod_wsgi (pid=2792): Exception occurred processing WSGI script 'C:/wash/wsgi_handler.wsgi'., referer: http://www.getwash.cn/
+[Sun Apr 26 21:01:18 2015] [error] [client 112.65.223.7] IOError: failed to write data, referer: http://www.getwash.cn/
+[Sun Apr 26 23:12:27 2015] [notice] Parent: Received restart signal -- Restarting the server.
+[Sun Apr 26 23:12:27 2015] [notice] Child 2792: Exit event signaled. Child process is ending.
+httpd.exe: Could not reliably determine the server's fully qualified domain name, using 118.193.170.200 for ServerName
+[Sun Apr 26 23:12:27 2015] [warn] mod_wsgi: Compiled for Python/2.7.
+[Sun Apr 26 23:12:27 2015] [warn] mod_wsgi: Runtime using Python/2.7.9.
+[Sun Apr 26 23:12:27 2015] [notice] Apache/2.2.25 (Win32) mod_wsgi/3.3 Python/2.7.9 configured -- resuming normal operations
+[Sun Apr 26 23:12:27 2015] [notice] Server built: Jul 10 2013 01:52:12
+[Sun Apr 26 23:12:27 2015] [notice] Parent: Created child process 4056
+httpd.exe: Could not reliably determine the server's fully qualified domain name, using 118.193.170.200 for ServerName
+httpd.exe: Could not reliably determine the server's fully qualified domain name, using 118.193.170.200 for ServerName
+[Sun Apr 26 23:12:27 2015] [warn] mod_wsgi: Compiled for Python/2.7.
+[Sun Apr 26 23:12:27 2015] [warn] mod_wsgi: Runtime using Python/2.7.9.
+[Sun Apr 26 23:12:27 2015] [notice] Child 4056: Child process is running
+[Sun Apr 26 23:12:28 2015] [notice] Child 2792: Released the start mutex
+[Sun Apr 26 23:12:28 2015] [notice] Child 4056: Acquired the start mutex.
+[Sun Apr 26 23:12:28 2015] [notice] Child 4056: Starting 64 worker threads.
+[Sun Apr 26 23:12:28 2015] [notice] Child 4056: Starting thread to listen on port 80.
+[Sun Apr 26 23:12:29 2015] [notice] Child 2792: All worker threads have exited.
+[Sun Apr 26 23:12:29 2015] [notice] Child 2792: Child process is exiting
+[Sun Apr 26 23:13:50 2015] [notice] Parent: Received restart signal -- Restarting the server.
+[Sun Apr 26 23:13:50 2015] [notice] Child 4056: Exit event signaled. Child process is ending.
+httpd.exe: Could not reliably determine the server's fully qualified domain name, using 118.193.170.200 for ServerName
+[Sun Apr 26 23:13:50 2015] [warn] mod_wsgi: Compiled for Python/2.7.
+[Sun Apr 26 23:13:50 2015] [warn] mod_wsgi: Runtime using Python/2.7.9.
+[Sun Apr 26 23:13:50 2015] [notice] Apache/2.2.25 (Win32) mod_wsgi/3.3 Python/2.7.9 configured -- resuming normal operations
+[Sun Apr 26 23:13:50 2015] [notice] Server built: Jul 10 2013 01:52:12
+[Sun Apr 26 23:13:50 2015] [notice] Parent: Created child process 2516
+httpd.exe: Could not reliably determine the server's fully qualified domain name, using 118.193.170.200 for ServerName
+httpd.exe: Could not reliably determine the server's fully qualified domain name, using 118.193.170.200 for ServerName
+[Sun Apr 26 23:13:50 2015] [warn] mod_wsgi: Compiled for Python/2.7.
+[Sun Apr 26 23:13:50 2015] [warn] mod_wsgi: Runtime using Python/2.7.9.
+[Sun Apr 26 23:13:50 2015] [notice] Child 2516: Child process is running
+[Sun Apr 26 23:13:51 2015] [notice] Child 4056: Released the start mutex
+[Sun Apr 26 23:13:51 2015] [notice] Child 2516: Acquired the start mutex.
+[Sun Apr 26 23:13:51 2015] [notice] Child 2516: Starting 64 worker threads.
+[Sun Apr 26 23:13:51 2015] [notice] Child 2516: Starting thread to listen on port 80.
+[Sun Apr 26 23:14:05 2015] [error] [client 112.65.223.10] mod_wsgi (pid=2516): Exception occurred processing WSGI script 'C:/wash/wsgi_handler.wsgi'., referer: http://118.193.170.200/
+[Sun Apr 26 23:14:05 2015] [error] [client 112.65.223.10] IOError: failed to write data, referer: http://118.193.170.200/
+[Sun Apr 26 23:14:07 2015] [error] [client 112.65.223.10] mod_wsgi (pid=2516): Exception occurred processing WSGI script 'C:/wash/wsgi_handler.wsgi'., referer: http://118.193.170.200/
+[Sun Apr 26 23:14:07 2015] [error] [client 112.65.223.10] IOError: failed to write data, referer: http://118.193.170.200/
+[Sun Apr 26 23:14:07 2015] [error] [client 112.65.223.10] mod_wsgi (pid=2516): Exception occurred processing WSGI script 'C:/wash/wsgi_handler.wsgi'., referer: http://118.193.170.200/
+[Sun Apr 26 23:14:07 2015] [error] [client 112.65.223.10] IOError: failed to write data, referer: http://118.193.170.200/
+[Sun Apr 26 23:14:25 2015] [error] [client 112.65.223.10] mod_wsgi (pid=2516): Exception occurred processing WSGI script 'C:/wash/wsgi_handler.wsgi'., referer: http://118.193.170.200/
+[Sun Apr 26 23:14:25 2015] [error] [client 112.65.223.10] IOError: failed to write data, referer: http://118.193.170.200/
+[Sun Apr 26 23:14:26 2015] [notice] Child 4056: Waiting 270 more seconds for 4 worker threads to finish.
+[Sun Apr 26 23:14:31 2015] [error] [client 112.65.223.10] mod_wsgi (pid=4056): Exception occurred processing WSGI script 'C:/wash/wsgi_handler.wsgi'., referer: http://getwash.cn/
+[Sun Apr 26 23:14:31 2015] [error] [client 112.65.223.10] IOError: failed to write data, referer: http://getwash.cn/
+[Sun Apr 26 23:14:34 2015] [error] [client 112.65.223.10] mod_wsgi (pid=2516): Exception occurred processing WSGI script 'C:/wash/wsgi_handler.wsgi'., referer: http://gowashing.com/
+[Sun Apr 26 23:14:34 2015] [error] [client 112.65.223.10] IOError: failed to write data, referer: http://gowashing.com/
+[Sun Apr 26 23:14:57 2015] [error] [client 112.65.223.10] mod_wsgi (pid=2516): Exception occurred processing WSGI script 'C:/wash/wsgi_handler.wsgi'., referer: http://118.193.170.200/
+[Sun Apr 26 23:14:57 2015] [error] [client 112.65.223.10] IOError: failed to write data, referer: http://118.193.170.200/
+[Sun Apr 26 23:15:00 2015] [notice] Child 4056: Waiting 240 more seconds for 3 worker threads to finish.
+[Sun Apr 26 23:15:03 2015] [error] [client 112.65.223.10] mod_wsgi (pid=4056): Exception occurred processing WSGI script 'C:/wash/wsgi_handler.wsgi'., referer: http://getwash.cn/
+[Sun Apr 26 23:15:03 2015] [error] [client 112.65.223.10] IOError: failed to write data, referer: http://getwash.cn/
+[Sun Apr 26 23:15:15 2015] [error] [client 112.65.223.10] mod_wsgi (pid=2516): Exception occurred processing WSGI script 'C:/wash/wsgi_handler.wsgi'., referer: http://gowashing.com/
+[Sun Apr 26 23:15:15 2015] [error] [client 112.65.223.10] IOError: failed to write data, referer: http://gowashing.com/
+[Sun Apr 26 23:15:32 2015] [error] [client 112.65.223.10] mod_wsgi (pid=2516): Exception occurred processing WSGI script 'C:/wash/wsgi_handler.wsgi'., referer: http://gowashing.com/
+[Sun Apr 26 23:15:32 2015] [error] [client 112.65.223.10] IOError: failed to write data, referer: http://gowashing.com/
+[Sun Apr 26 23:15:33 2015] [error] [client 112.65.223.10] mod_wsgi (pid=2516): Exception occurred processing WSGI script 'C:/wash/wsgi_handler.wsgi'., referer: http://gowashing.com/
+[Sun Apr 26 23:15:33 2015] [error] [client 112.65.223.10] IOError: failed to write data, referer: http://gowashing.com/
+[Sun Apr 26 23:15:33 2015] [error] [client 112.65.223.10] mod_wsgi (pid=2516): Exception occurred processing WSGI script 'C:/wash/wsgi_handler.wsgi'., referer: http://gowashing.com/
+[Sun Apr 26 23:15:33 2015] [error] [client 112.65.223.10] IOError: failed to write data, referer: http://gowashing.com/
+[Sun Apr 26 23:15:33 2015] [error] [client 112.65.223.10] mod_wsgi (pid=2516): Exception occurred processing WSGI script 'C:/wash/wsgi_handler.wsgi'., referer: http://118.193.170.200/
+[Sun Apr 26 23:15:33 2015] [error] [client 112.65.223.10] IOError: failed to write data, referer: http://118.193.170.200/
+[Sun Apr 26 23:15:34 2015] [notice] Child 4056: Waiting 210 more seconds for 2 worker threads to finish.
+[Sun Apr 26 23:15:45 2015] [error] [client 112.65.223.10] mod_wsgi (pid=4056): Exception occurred processing WSGI script 'C:/wash/wsgi_handler.wsgi'., referer: http://118.193.170.200/
+[Sun Apr 26 23:15:45 2015] [error] [client 112.65.223.10] IOError: failed to write data, referer: http://118.193.170.200/
+[Sun Apr 26 23:15:46 2015] [error] [client 112.65.223.10] mod_wsgi (pid=2516): Exception occurred processing WSGI script 'C:/wash/wsgi_handler.wsgi'., referer: http://gowashing.com/
+[Sun Apr 26 23:15:46 2015] [error] [client 112.65.223.10] IOError: failed to write data, referer: http://gowashing.com/
+[Sun Apr 26 23:16:07 2015] [notice] Child 4056: Waiting 180 more seconds for 1 worker threads to finish.
+[Sun Apr 26 23:16:19 2015] [error] [client 101.226.125.121] mod_wsgi (pid=2516): Exception occurred processing WSGI script 'C:/wash/wsgi_handler.wsgi'., referer: http://www.getwash.cn/
+[Sun Apr 26 23:16:19 2015] [error] [client 101.226.125.121] IOError: failed to write data, referer: http://www.getwash.cn/
+[Sun Apr 26 23:16:20 2015] [error] [client 101.226.125.121] mod_wsgi (pid=2516): Exception occurred processing WSGI script 'C:/wash/wsgi_handler.wsgi'., referer: http://www.getwash.cn/
+[Sun Apr 26 23:16:20 2015] [error] [client 101.226.125.121] IOError: failed to write data, referer: http://www.getwash.cn/
+[Sun Apr 26 23:16:40 2015] [notice] Child 4056: Waiting 150 more seconds for 1 worker threads to finish.
+[Sun Apr 26 23:16:48 2015] [error] [client 112.65.223.10] mod_wsgi (pid=2516): Exception occurred processing WSGI script 'C:/wash/wsgi_handler.wsgi'., referer: http://118.193.170.200/
+[Sun Apr 26 23:16:48 2015] [error] [client 112.65.223.10] IOError: failed to write data, referer: http://118.193.170.200/
+[Sun Apr 26 23:17:13 2015] [notice] Child 4056: Waiting 120 more seconds for 1 worker threads to finish.
+[Sun Apr 26 23:17:26 2015] [error] [client 112.65.223.9] mod_wsgi (pid=2516): Exception occurred processing WSGI script 'C:/wash/wsgi_handler.wsgi'., referer: http://www.getwash.cn/
+[Sun Apr 26 23:17:26 2015] [error] [client 112.65.223.9] IOError: failed to write data, referer: http://www.getwash.cn/
+[Sun Apr 26 23:17:47 2015] [notice] Child 4056: Waiting 90 more seconds for 1 worker threads to finish.
+[Sun Apr 26 23:17:58 2015] [error] [client 112.65.223.9] mod_wsgi (pid=2516): Exception occurred processing WSGI script 'C:/wash/wsgi_handler.wsgi'., referer: http://www.getwash.cn/
+[Sun Apr 26 23:17:58 2015] [error] [client 112.65.223.9] IOError: failed to write data, referer: http://www.getwash.cn/
+[Sun Apr 26 23:18:12 2015] [error] [client 112.65.223.9] mod_wsgi (pid=2516): Exception occurred processing WSGI script 'C:/wash/wsgi_handler.wsgi'., referer: http://www.getwash.cn/
+[Sun Apr 26 23:18:12 2015] [error] [client 112.65.223.9] IOError: failed to write data, referer: http://www.getwash.cn/
+[Sun Apr 26 23:18:20 2015] [notice] Child 4056: Waiting 60 more seconds for 1 worker threads to finish.
+[Sun Apr 26 23:18:26 2015] [error] [client 112.65.223.7] mod_wsgi (pid=2516): Exception occurred processing WSGI script 'C:/wash/wsgi_handler.wsgi'., referer: http://www.getwash.cn/
+[Sun Apr 26 23:18:26 2015] [error] [client 112.65.223.7] IOError: failed to write data, referer: http://www.getwash.cn/
+[Sun Apr 26 23:18:26 2015] [error] [client 112.65.223.7] mod_wsgi (pid=2516): Exception occurred processing WSGI script 'C:/wash/wsgi_handler.wsgi'., referer: http://www.getwash.cn/
+[Sun Apr 26 23:18:26 2015] [error] [client 112.65.223.7] IOError: failed to write data, referer: http://www.getwash.cn/
+[Sun Apr 26 23:18:26 2015] [error] [client 112.65.223.7] mod_wsgi (pid=2516): Exception occurred processing WSGI script 'C:/wash/wsgi_handler.wsgi'., referer: http://www.getwash.cn/
+[Sun Apr 26 23:18:26 2015] [error] [client 112.65.223.7] IOError: failed to write data, referer: http://www.getwash.cn/
+[Sun Apr 26 23:18:31 2015] [error] [client 112.65.223.7] mod_wsgi (pid=2516): Exception occurred processing WSGI script 'C:/wash/wsgi_handler.wsgi'., referer: http://www.getwash.cn/
+[Sun Apr 26 23:18:31 2015] [error] [client 112.65.223.7] IOError: failed to write data, referer: http://www.getwash.cn/
+[Sun Apr 26 23:18:31 2015] [error] [client 112.65.223.7] mod_wsgi (pid=2516): Exception occurred processing WSGI script 'C:/wash/wsgi_handler.wsgi'., referer: http://www.getwash.cn/
+[Sun Apr 26 23:18:31 2015] [error] [client 112.65.223.7] IOError: failed to write data, referer: http://www.getwash.cn/
+[Sun Apr 26 23:18:33 2015] [error] [client 112.65.223.29] mod_wsgi (pid=2516): Exception occurred processing WSGI script 'C:/wash/wsgi_handler.wsgi'., referer: http://getwash.cn/
+[Sun Apr 26 23:18:33 2015] [error] [client 112.65.223.29] IOError: failed to write data, referer: http://getwash.cn/
+[Sun Apr 26 23:18:35 2015] [error] [client 112.65.223.7] mod_wsgi (pid=2516): Exception occurred processing WSGI script 'C:/wash/wsgi_handler.wsgi'., referer: http://www.getwash.cn/
+[Sun Apr 26 23:18:35 2015] [error] [client 112.65.223.7] IOError: failed to write data, referer: http://www.getwash.cn/
+[Sun Apr 26 23:18:53 2015] [notice] Child 4056: Waiting 30 more seconds for 1 worker threads to finish.
+[Sun Apr 26 23:18:57 2015] [error] [client 112.65.223.10] mod_wsgi (pid=4056): Exception occurred processing WSGI script 'C:/wash/wsgi_handler.wsgi'., referer: http://118.193.170.200/
+[Sun Apr 26 23:18:57 2015] [error] [client 112.65.223.10] IOError: failed to write data, referer: http://118.193.170.200/
+[Sun Apr 26 23:18:57 2015] [notice] Child 4056: All worker threads have exited.
+[Sun Apr 26 23:18:57 2015] [notice] Child 4056: Child process is exiting
+[Sun Apr 26 23:19:27 2015] [error] [client 112.65.223.10] mod_wsgi (pid=2516): Exception occurred processing WSGI script 'C:/wash/wsgi_handler.wsgi'., referer: http://118.193.170.200/
+[Sun Apr 26 23:19:27 2015] [error] [client 112.65.223.10] IOError: failed to write data, referer: http://118.193.170.200/
+[Sun Apr 26 23:20:21 2015] [error] [client 112.65.223.10] mod_wsgi (pid=2516): Exception occurred processing WSGI script 'C:/wash/wsgi_handler.wsgi'., referer: http://118.193.170.200/
+[Sun Apr 26 23:20:21 2015] [error] [client 112.65.223.10] IOError: failed to write data, referer: http://118.193.170.200/
+[Sun Apr 26 23:20:29 2015] [error] [client 112.65.223.10] mod_wsgi (pid=2516): Exception occurred processing WSGI script 'C:/wash/wsgi_handler.wsgi'., referer: http://getwash.cn/
+[Sun Apr 26 23:20:29 2015] [error] [client 112.65.223.10] IOError: failed to write data, referer: http://getwash.cn/
+[Sun Apr 26 23:21:26 2015] [error] [client 112.65.223.7] mod_wsgi (pid=2516): Exception occurred processing WSGI script 'C:/wash/wsgi_handler.wsgi'., referer: http://www.getwash.cn/
+[Sun Apr 26 23:21:26 2015] [error] [client 112.65.223.7] IOError: failed to write data, referer: http://www.getwash.cn/
+[Sun Apr 26 23:25:13 2015] [error] [client 112.65.223.10] mod_wsgi (pid=2516): Exception occurred processing WSGI script 'C:/wash/wsgi_handler.wsgi'., referer: http://getwash.cn/
+[Sun Apr 26 23:25:13 2015] [error] [client 112.65.223.10] IOError: failed to write data, referer: http://getwash.cn/
+[Sun Apr 26 23:43:13 2015] [error] [client 101.226.61.189] mod_wsgi (pid=2516): Exception occurred processing WSGI script 'C:/wash/wsgi_handler.wsgi'., referer: http://getwash.cn/
+[Sun Apr 26 23:43:13 2015] [error] [client 101.226.61.189] IOError: failed to write data, referer: http://getwash.cn/
+[Mon Apr 27 00:12:00 2015] [error] [client 117.136.8.231] mod_wsgi (pid=2516): Exception occurred processing WSGI script 'C:/wash/wsgi_handler.wsgi'., referer: http://getwash.cn/
+[Mon Apr 27 00:12:00 2015] [error] [client 117.136.8.231] IOError: failed to write data, referer: http://getwash.cn/
+[Mon Apr 27 00:12:01 2015] [error] [client 117.136.8.231] mod_wsgi (pid=2516): Exception occurred processing WSGI script 'C:/wash/wsgi_handler.wsgi'., referer: http://getwash.cn/
+[Mon Apr 27 00:12:01 2015] [error] [client 117.136.8.231] IOError: failed to write data, referer: http://getwash.cn/
+[Mon Apr 27 00:12:09 2015] [error] [client 117.136.8.231] mod_wsgi (pid=2516): Exception occurred processing WSGI script 'C:/wash/wsgi_handler.wsgi'., referer: http://getwash.cn/
+[Mon Apr 27 00:12:09 2015] [error] [client 117.136.8.231] IOError: failed to write data, referer: http://getwash.cn/
+[Mon Apr 27 00:12:14 2015] [error] [client 117.136.8.231] mod_wsgi (pid=2516): Exception occurred processing WSGI script 'C:/wash/wsgi_handler.wsgi'., referer: http://getwash.cn/
+[Mon Apr 27 00:12:14 2015] [error] [client 117.136.8.231] IOError: failed to write data, referer: http://getwash.cn/
+[Mon Apr 27 00:12:20 2015] [error] [client 117.136.8.231] mod_wsgi (pid=2516): Exception occurred processing WSGI script 'C:/wash/wsgi_handler.wsgi'., referer: http://getwash.cn/
+[Mon Apr 27 00:12:20 2015] [error] [client 117.136.8.231] IOError: failed to write data, referer: http://getwash.cn/
+[Mon Apr 27 00:12:20 2015] [error] [client 117.136.8.231] mod_wsgi (pid=2516): Exception occurred processing WSGI script 'C:/wash/wsgi_handler.wsgi'., referer: http://getwash.cn/
+[Mon Apr 27 00:12:20 2015] [error] [client 117.136.8.231] IOError: failed to write data, referer: http://getwash.cn/
+[Mon Apr 27 00:12:20 2015] [error] [client 117.136.8.231] mod_wsgi (pid=2516): Exception occurred processing WSGI script 'C:/wash/wsgi_handler.wsgi'., referer: http://getwash.cn/
+[Mon Apr 27 00:12:20 2015] [error] [client 117.136.8.231] IOError: failed to write data, referer: http://getwash.cn/
+[Mon Apr 27 00:13:30 2015] [error] [client 117.136.8.231] mod_wsgi (pid=2516): Exception occurred processing WSGI script 'C:/wash/wsgi_handler.wsgi'., referer: http://getwash.cn/
+[Mon Apr 27 00:13:30 2015] [error] [client 117.136.8.231] IOError: failed to write data, referer: http://getwash.cn/
+[Mon Apr 27 00:13:37 2015] [error] [client 117.136.8.231] mod_wsgi (pid=2516): Exception occurred processing WSGI script 'C:/wash/wsgi_handler.wsgi'., referer: http://getwash.cn/
+[Mon Apr 27 00:13:37 2015] [error] [client 117.136.8.231] IOError: failed to write data, referer: http://getwash.cn/
+[Mon Apr 27 00:14:13 2015] [error] [client 117.136.8.231] mod_wsgi (pid=2516): Exception occurred processing WSGI script 'C:/wash/wsgi_handler.wsgi'., referer: http://getwash.cn/
+[Mon Apr 27 00:14:13 2015] [error] [client 117.136.8.231] IOError: failed to write data, referer: http://getwash.cn/
+[Mon Apr 27 00:14:13 2015] [error] [client 117.136.8.231] mod_wsgi (pid=2516): Exception occurred processing WSGI script 'C:/wash/wsgi_handler.wsgi'., referer: http://getwash.cn/
+[Mon Apr 27 00:14:13 2015] [error] [client 117.136.8.231] IOError: failed to write data, referer: http://getwash.cn/
+[Mon Apr 27 00:14:34 2015] [error] [client 117.136.8.231] mod_wsgi (pid=2516): Exception occurred processing WSGI script 'C:/wash/wsgi_handler.wsgi'., referer: http://getwash.cn/
+[Mon Apr 27 00:14:34 2015] [error] [client 117.136.8.231] IOError: failed to write data, referer: http://getwash.cn/
+[Mon Apr 27 00:14:35 2015] [error] [client 117.136.8.231] mod_wsgi (pid=2516): Exception occurred processing WSGI script 'C:/wash/wsgi_handler.wsgi'., referer: http://getwash.cn/
+[Mon Apr 27 00:14:35 2015] [error] [client 117.136.8.231] IOError: failed to write data, referer: http://getwash.cn/
+[Mon Apr 27 00:14:41 2015] [error] [client 117.136.8.231] mod_wsgi (pid=2516): Exception occurred processing WSGI script 'C:/wash/wsgi_handler.wsgi'., referer: http://getwash.cn/
+[Mon Apr 27 00:14:41 2015] [error] [client 117.136.8.231] IOError: failed to write data, referer: http://getwash.cn/
+[Mon Apr 27 00:15:45 2015] [error] [client 117.136.8.231] mod_wsgi (pid=2516): Exception occurred processing WSGI script 'C:/wash/wsgi_handler.wsgi'., referer: http://getwash.cn/
+[Mon Apr 27 00:15:45 2015] [error] [client 117.136.8.231] IOError: failed to write data, referer: http://getwash.cn/

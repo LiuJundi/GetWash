@@ -28,6 +28,9 @@ body {
 	position: relative;
 	display: none;
 }
+.goods_more {
+	cursor: none;
+}
 .goods img {
 	height: 120px;
 	width: 120px;
@@ -45,9 +48,15 @@ body {
 }
 .header {
 	margin: 5px auto;
-	padding: 25px;
+	padding: 20px;
+}
+#jiesuanDiv .header {
+	margin: 5px auto;
+	padding: 0;
 }
 #splitPage {
+	margin: 0 auto;
+	width: 200px;
 	padding: 5px;
 	font-size: 25px;
 	cursor: pointer;
@@ -111,14 +120,31 @@ body {
 	padding: 10px;
 }
 #lanziTable .shumu {
-	font-size: 28px;
+	font-size: 23px;
 	font-weight: bold;
 	text-decoration: underline;
 }
+#lanziTable .shanchu {
+	display: none;
+}
+#lanziTable .jiage {
+	display: none;
+}
+#lanziTable .jian a {
+	margin: 0;
+	padding: 1px 7px;
+}
+#lanziTable .jia a {
+	margin: 0;
+	padding: 1px 5px;
+}
+#lanziTable .danjia {
+	display: none;
+}
 #lanziTable img {
-	width: 100px;
-	height: 100px;
-	border: 3px dashed white;
+	width: 70px;
+	height: 70px;
+	border: 1px dashed white;
 }
 #jiesuanDiv {
 	margin: 0 auto;
@@ -147,9 +173,10 @@ input {
 }
 .tishi {
 	font-size: 20px;
+	padding: 10px;
 	display: none;
 	text-decoration: underline;
-	overflow:hidden;
+	overflow: hidden;
 }
 #shijian {
 	margin: 0px;

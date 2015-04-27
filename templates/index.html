@@ -1,10 +1,12 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 <head>
 	<meta charset='utf-8'/>
 	<!-- <title>GetWash-云上干洗，触手可洗！</title> -->
 	<title>触手可洗-校园云干洗</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="baidu-site-verification" content="zQsbmS6VJQ" />
+<link rel="shortcut icon" href="{{ url_for('static', filename='img/favicon.ico') }}" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 	<script type="text/javascript" src="{{ url_for('static', filename='js/jquery-2.1.3.min.js') }}"></script>
 	<script type="text/javascript" src="{{ url_for('static', filename='js/cookie.js') }}"></script>
 	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/index.css') }}">
@@ -12,84 +14,44 @@
 <body unselectable="on" onselectstart="return false;">
 	<img id="logoImg" src="{{ url_for('static', filename='img/logo_new.png') }}">
 	<h2>选择您的地址</h2>
+	<iframe id="loading" src="{{ url_for('static', filename='img/loading.gif') }}"></iframe>
 	<div class="A" id="p1" style="display: none;">
 		<div class="country">
 			<div class="addr" onclick="minhang()">闵行</div>
 			<div class="addr">松江</div>
+			<div class="addr">杨浦</div>
 			<div class="addr">奉贤</div>
 			<div class="addr">宝山</div>
 			<div class="addr">嘉定</div>
 			<div class="addr">徐汇</div>
 			<div class="addr">浦东</div>
-			<div class="addr">南汇</div>
+			<div class="addr">普陀</div>
+			<div class="addr">青浦</div>
+			<div class="addr">临港</div>
+			<div class="addr">长宁</div>
 		</div>
-		<div class="login">
+<!-- 		<div class="login">
 			<a class="dengluBtn">登录</a>
-		</div>
+			<span>或</span>
+			<a class="zhuceBtn">注册</a>
+		</div> -->
 	</div>
 	<div class="A" id="p2" style="display: none;">
-		<div class="school">
-			<div class="addr" onclick="jiaoda()">上海交通大学</div>
-			<div class="addr">华东师范大学</div>
-			<div class="addr">上海电机学院</div>
-			<div class="addr">上海东海学院</div>
+		<div id="schoolData" class="school">
+			<div class="addr XueXiao">上海交通大学</div>
+			<div class="addr XueXiao">华东师范大学</div>
+			<div class="addr XueXiao">上海电机学院</div>
+			<div class="addr XueXiao">上海东海学院</div>
 		</div>
 		<div class="login">
 			<a onclick="fanhui1()">返回</a>
-			<span>或</span>
-			<a class="dengluBtn">登录</a>
 		</div>
 	</div>
 	<div class="A" id="p3" style="display: none;">
-	<!--
-		<div class="sushe">
-			<div class="addr loudong">X11</div>
-			<div class="addr loudong">X12</div>
-			<div class="addr loudong">X13</div>
-			<div class="addr loudong">X14</div>
-			<div class="addr loudong">X15</div>
-			<div class="addr loudong">X16</div>
-			<div class="addr loudong">X17</div>
-			<div class="addr loudong">X18</div>
-			<div class="addr loudong">X19</div>
-			<div class="addr loudong">X20</div>
-			<div class="addr loudong">X21</div>
-			<div class="addr loudong">X22</div>
-			<div class="addr loudong">D1</div>
-			<div class="addr loudong">D2</div>
-			<div class="addr loudong">D3</div>
-			<div class="addr loudong">D4</div>
-			<div class="addr loudong">D5</div>
-			<div class="addr loudong">D6</div>
-			<div class="addr loudong">D7</div>
-			<div class="addr loudong">D8</div>
-			<div class="addr loudong">D9</div>
-			<div class="addr loudong">D10</div>
-			<div class="addr loudong">D11</div>
-			<div class="addr loudong">D12</div>
-			<div class="addr loudong">D13</div>
-			<div class="addr loudong">D14</div>
-			<div class="addr loudong">D15</div>
-			<div class="addr loudong">D16</div>
-			<div class="addr loudong">D17</div>
-			<div class="addr loudong">D18</div>
-			<div class="addr loudong">D19</div>
-			<div class="addr loudong">D20</div>
-		</div>
-		-->
 		<div id="shijian">
 			<ul id="quyulist" class="droplist">
 				<li id="riqidrop" class="drop">区域<b class="triangle"></b></li>
 				<div class="container">
-					<li class="riqi">西区</li>
-<!-- 					<li class="riqi">西二区</li>
-					<li class="riqi">西三区</li>
-					<li class="riqi">西四区</li>
-					<li class="riqi">西五区</li> -->
-					<li class="riqi">东区</li>
-<!-- 					<li class="riqi">东二区</li>
-					<li class="riqi">东三区</li>
-					<li class="riqi">东四区</li> -->
 				</div>
 			</ul>
 			<ul id="loudonglist" class="droplist">
@@ -99,10 +61,9 @@
 		</div>
 		<div class="login">
 			<a onclick="fanhui2()">返回</a>
-			<span>或</span>
-			<a class="dengluBtn">登录</a>
 		</div>
 		<span class="tishi"></span>
+		<span id="waiting" style="display:none;">正在跳转，请等待...</span>
 	</div>
 	<div id="denglu" style="display: none;">
 		<form id="signin">
@@ -113,52 +74,46 @@
 		<div class="login">
 			<a onclick="confirm()">确认</a>
 			<span>或</span>
-			<a onclick="quxiao()">取消</a>
+			<a class="quxiaoBtn">取消</a>
 		</div>
 		<br>
 		<span class="tishi"></span>
 	</div>
 	<div id="zhuce" style="display: none;">
-		<form id="signin">
+		<form class="login" id="signin">
 			<input id="yonghuming" type="text" placeholder="用户名" required>
 			<input id="mima" type="password" placeholder="密码" required>
+			<input id="yonghuming" type="text" placeholder="手机号" required>
+			<br><br><a>获取验证码</a><br><br>
+			<input id="yonghuming" type="text" placeholder="验证码" required>
 		</form>
 		<br>
 		<div class="login">
 			<a onclick="confirm()">确认</a>
 			<span>或</span>
-			<a onclick="quxiao()">取消</a>
-			<span>或</span>
-			<a onclick="zhuce()">注册</a>
+			<a class="quxiaoBtn">取消</a>
 		</div>
 		<br>
 		<span class="tishi"></span>
 	</div>
-	<img id="processImg" src="{{ url_for('static', filename='img/process.png') }}">
+	<img id="processImg" style="display:none" src="{{ url_for('static', filename='img/process.png') }}">
 	<br>
-	<span style="text-decoration: underline;cursor:pointer;">关于我们</span>
+	<p id="faq" style="margin-top:15px;display:none;"><span style="text-decoration: underline;cursor:pointer;">关于我们</span></p>
 </body>
 	<script type="text/javascript">
 		var toggledDrop;
 		function minhang () {
-			$('#p1').fadeToggle(200);
-			setTimeout("$('#p2').fadeToggle(200)", 200);
+			$('#p1').fadeToggle(200, function(){$('#p2').fadeToggle(200)});
 		}
 		function fanhui1 () {
-			$('#p2').fadeToggle(200);
-			setTimeout("$('#p1').fadeToggle(200)", 200);
+			$('#p2').fadeToggle(200, function(){$('#p1').fadeToggle(200)});
 		}
 		function fanhui2 () {
-			$('#p3').fadeToggle(200);
-			setTimeout("$('#p2').fadeToggle(200)", 200);
+			$('#p3').fadeToggle(200, function(){$('#p2').fadeToggle(200)});
 		}
 		function jiaoda () {
-			$('#p2').fadeToggle(200);
-			setTimeout("$('#p3').fadeToggle(200)", 200);
 		}
-		function quxiao () {
-			$('#denglu').fadeToggle(200);
-			setTimeout("$('#p1').fadeToggle(200)", 200);
+		function huashida () {
 		}
 		function confirm() {
 			if ($("#yonghuming").val()=="" || $("#mima").val()=="") {
@@ -168,7 +123,30 @@
 			};
 		}
 		$(document).ready(function(){
+			$("#loading").hide();
 			$("#p1").fadeToggle(200);
+			setTimeout('$("#processImg").fadeIn(200)', 50);
+			setTimeout('$("#faq").fadeIn(200)', 100);
+			$(".XueXiao").click(
+				function () {
+					$('#riqidrop').html('区域<b class="triangle"></b>');
+					$('#riqidrop').next().children().remove();
+					if ($(this).text() == "上海交通大学") {
+						$('#riqidrop').next().append('<li class="riqi">西区</li><li class="riqi">东区</li>');
+					};
+					if ($(this).text() == "华东师范大学") {
+						$('#riqidrop').next().append('<li class="riqi">本科生</li><li class="riqi">研究生</li>');
+					}
+					if ($(this).text() == "上海电机学院") {
+						$('#riqidrop').next().append('<li class="riqi">寝室楼</li>');
+					}
+					if ($(this).text() == "上海东海学院") {
+						$('#riqidrop').next().append('<li class="riqi">寝室楼</li>');
+					}
+					$('#p2').fadeToggle(200, function(){$('#p3').fadeToggle(200)});
+					$("#schoolData").data("xuexiao", $(this).text());
+				}
+			);
 			$("a").mouseenter (
 				function () {
 					$(this).css({backgroundColor:"#FFFFFF","color":"#009bf5"});
@@ -191,136 +169,78 @@
 			);
 			$(".dengluBtn").click (
 				function () {
-					$(this).parent().parent().fadeToggle(200);
-					setTimeout("$('#denglu').fadeToggle(200)", 200);
-					$("#yonghuming").focus();
+					$(this).parent().parent().fadeToggle(200, function(){$('#denglu').fadeToggle(200);$("#yonghuming").focus});
 				}
 			);
-			$(".loudong").click (
+			$(".zhuceBtn").click (
 				function () {
-					var temp = $(this).text();
-					$.cookie('dizhi', temp, { expires: 7 });
-					$.post("{{ url_for('dizhi') }}", {dizhi: temp}, function () {window.location.href = '';});
+					$(this).parent().parent().fadeToggle(200, function(){$('#zhuce').fadeToggle(200);$("#yonghuming").focus});
 				}
 			);
+			$(".quxiaoBtn").click (
+				function () {
+					$(this).parent().parent().fadeToggle(200, function(){$('#p1').fadeToggle(200)});
+				}
+			);
+			// $(".loudong").click (
+			// 	function () {
+			// 		var temp = $(this).text();
+			// 		$.cookie('dizhi', $("#riqidrop").text()+temp, { expires: 7 });
+			// 		window.location.href = '';
+			// 		$.post("{{ url_for('dizhi') }}", {dizhi: temp}, function () {window.location.href = '';});
+			// 	}
+			// );
 			$(".container").delegate('.riqi', 'click', function() {
-				if($(this).text() == "西区") {
-					$("#loudonglist").children('.container').append('<li class="time">X10</li>');
-					$("#loudonglist").children('.container').append('<li class="time">X11</li>');
-					$("#loudonglist").children('.container').append('<li class="time">X12</li>');
-					$("#loudonglist").children('.container').append('<li class="time">X13</li>');
-					$("#loudonglist").children('.container').append('<li class="time">X14</li>');
-					$("#loudonglist").children('.container').append('<li class="time">X15</li>');
-					$("#loudonglist").children('.container').append('<li class="time">X16</li>');
-					$("#loudonglist").children('.container').append('<li class="time">X17</li>');
-					$("#loudonglist").children('.container').append('<li class="time">X18</li>');
-					$("#loudonglist").children('.container').append('<li class="time">X19</li>');
-					$("#loudonglist").children('.container').append('<li class="time">X20</li>');
-					$("#loudonglist").children('.container').append('<li class="time">X21</li>');
-					$("#loudonglist").children('.container').append('<li class="time">X22</li>');
-					$("#loudonglist").children('.container').append('<li class="time">X23</li>');
-					$("#loudonglist").children('.container').append('<li class="time">X24</li>');
-					$("#loudonglist").children('.container').append('<li class="time">X25</li>');
-					$("#loudonglist").children('.container').append('<li class="time">X26</li>');
-					$("#loudonglist").children('.container').append('<li class="time">X27</li>');
-					$("#loudonglist").children('.container').append('<li class="time">X28</li>');
-					$("#loudonglist").children('.container').append('<li class="time">X29</li>');
-					$("#loudonglist").children('.container').append('<li class="time">X30</li>');
-					$("#loudonglist").children('.container').append('<li class="time">X31</li>');
-					$("#loudonglist").children('.container').append('<li class="time">X32</li>');
-					$("#loudonglist").children('.container').append('<li class="time">X33</li>');
-					$("#loudonglist").children('.container').append('<li class="time">X34</li>');
-					$("#loudonglist").children('.container').append('<li class="time">X35</li>');
-					$("#loudonglist").children('.container').append('<li class="time">X36</li>');
-					$("#loudonglist").children('.container').append('<li class="time">X37</li>');
-					$("#loudonglist").children('.container').append('<li class="time">X38</li>');
-					$("#loudonglist").children('.container').append('<li class="time">X39</li>');
-					$("#loudonglist").children('.container').append('<li class="time">X40</li>');
-					$("#loudonglist").children('.container').append('<li class="time">X41</li>');
-					$("#loudonglist").children('.container').append('<li class="time">X42</li>');
-					$("#loudonglist").children('.container').append('<li class="time">X43</li>');
-					$("#loudonglist").children('.container').append('<li class="time">X44</li>');
-					$("#loudonglist").children('.container').append('<li class="time">X45</li>');
-					$("#loudonglist").children('.container').append('<li class="time">X46</li>');
-					$("#loudonglist").children('.container').append('<li class="time">X47</li>');
-					$("#loudonglist").children('.container').append('<li class="time">X48</li>');
-					$("#loudonglist").children('.container').append('<li class="time">X49</li>');
-					$("#loudonglist").children('.container').append('<li class="time">X50</li>');
-					$("#loudonglist").children('.container').append('<li class="time">X51</li>');
-					$("#loudonglist").children('.container').append('<li class="time">X52</li>');
-					$("#loudonglist").children('.container').append('<li class="time">X53</li>');
-					$("#loudonglist").children('.container').append('<li class="time">X54</li>');
-					$("#loudonglist").children('.container').append('<li class="time">X55</li>');
-					$("#loudonglist").children('.container').append('<li class="time">X56</li>');
-					$("#loudonglist").children('.container').append('<li class="time">X57</li>');
-					$("#loudonglist").children('.container').append('<li class="time">X58</li>');
-					$("#loudonglist").children('.container').append('<li class="time">X59</li>');
-					$("#loudonglist").children('.container').append('<li class="time">X60</li>');
-					$("#loudonglist").children('.container').append('<li class="time">X61</li>');
-					$("#loudonglist").children('.container').append('<li class="time">X62</li>');
-					$("#loudonglist").children('.container').append('<li class="time">X63</li>');
-					$("#loudonglist").children('.container').append('<li class="time">X64</li>');
-					$("#loudonglist").children('.container').append('<li class="time">X65</li>');
-					$("#loudonglist").children('.container').append('<li class="time">X66</li>');
-					$("#loudonglist").children('.container').append('<li class="time">X67</li>');
-					$("#loudonglist").children('.container').append('<li class="time">X68</li>');
-					$("#loudonglist").children('.container').append('<li class="time">X69</li>');
-					$("#loudonglist").children('.container').append('<li class="time">X70</li>');
+				$("#loudonglist").children('.container').children().remove();
+				if ($("#schoolData").data("xuexiao") == "上海交通大学") {
+					if($(this).text() == "西区") {
+						for (var i = 10; i <= 70; i++) {
+							$("#loudonglist").children('.container').append('<li class="time">X'+i+'楼</li>');
+						};
+					} else if($(this).text() == "东区") {
+						$("#loudonglist").children('.container').append('<li class="time">蓁蓁楼</li>');
+						for (var i = 1; i <= 33; i++) {
+							$("#loudonglist").children('.container').append('<li class="time">D'+i+'楼</li>');
+						};
+					}
 				}
-				//  else if($(this).text() == "西二区") {
-				// } else if($(this).text() == "西三区") {
-				// } else if($(this).text() == "西四区") {
-				// } else if($(this).text() == "西五区") {
-				// } 
-				else if($(this).text() == "东区") {
-					$("#loudonglist").children('.container').append('<li class="time">D1</li>');
-					$("#loudonglist").children('.container').append('<li class="time">D2</li>');
-					$("#loudonglist").children('.container').append('<li class="time">D3</li>');
-					$("#loudonglist").children('.container').append('<li class="time">D4</li>');
-					$("#loudonglist").children('.container').append('<li class="time">D5</li>');
-					$("#loudonglist").children('.container').append('<li class="time">D6</li>');
-					$("#loudonglist").children('.container').append('<li class="time">D7</li>');
-					$("#loudonglist").children('.container').append('<li class="time">D8</li>');
-					$("#loudonglist").children('.container').append('<li class="time">D9</li>');
-					$("#loudonglist").children('.container').append('<li class="time">D10</li>');
-					$("#loudonglist").children('.container').append('<li class="time">D11</li>');
-					$("#loudonglist").children('.container').append('<li class="time">D12</li>');
-					$("#loudonglist").children('.container').append('<li class="time">D13</li>');
-					$("#loudonglist").children('.container').append('<li class="time">蓁蓁楼</li>');
-					$("#loudonglist").children('.container').append('<li class="time">D14</li>');
-					$("#loudonglist").children('.container').append('<li class="time">D15</li>');
-					$("#loudonglist").children('.container').append('<li class="time">D16</li>');
-					$("#loudonglist").children('.container').append('<li class="time">D17</li>');
-					$("#loudonglist").children('.container').append('<li class="time">D18</li>');
-					$("#loudonglist").children('.container').append('<li class="time">D19</li>');
-					$("#loudonglist").children('.container').append('<li class="time">D20</li>');
-					$("#loudonglist").children('.container').append('<li class="time">D21</li>');
-					$("#loudonglist").children('.container').append('<li class="time">D22</li>');
-					$("#loudonglist").children('.container').append('<li class="time">D23</li>');
-					$("#loudonglist").children('.container').append('<li class="time">D24</li>');
-					$("#loudonglist").children('.container').append('<li class="time">D25</li>');
-					$("#loudonglist").children('.container').append('<li class="time">D26</li>');
-					$("#loudonglist").children('.container').append('<li class="time">D27</li>');
-					$("#loudonglist").children('.container').append('<li class="time">D28</li>');
-					$("#loudonglist").children('.container').append('<li class="time">D29</li>');
-					$("#loudonglist").children('.container').append('<li class="time">D30</li>');
-					$("#loudonglist").children('.container').append('<li class="time">D31</li>');
-					$("#loudonglist").children('.container').append('<li class="time">D32</li>');
-					$("#loudonglist").children('.container').append('<li class="time">D33</li>');
+				if ($("#schoolData").data("xuexiao") == "华东师范大学") {
+					if($(this).text() == "本科生") {
+						for (var i = 1; i <= 22; i++) {
+							$("#loudonglist").children('.container').append('<li class="time">'+i+'号楼</li>');
+						};
+					} else if($(this).text() == "研究生") {
+						for (var i = 1; i <= 17; i++) {
+							$("#loudonglist").children('.container').append('<li class="time">'+i+'号楼</li>');
+						};
+					}
 				}
-				//  else if($(this).text() == "东二区") {
-				// } else if($(this).text() == "东三区") {
-				// } else if($(this).text() == "东四区") {
-				// }
+				if ($("#schoolData").data("xuexiao") == "上海电机学院") {
+					if($(this).text() == "寝室楼") {
+						for (var i = 1; i <= 14; i++) {
+							$("#loudonglist").children('.container').append('<li class="time">'+i+'号楼</li>');
+						};
+					}
+				}
+				if ($("#schoolData").data("xuexiao") == "上海东海学院") {
+					if($(this).text() == "寝室楼") {
+						for (var i = 1; i <= 9; i++) {
+							$("#loudonglist").children('.container').append('<li class="time">'+i+'号楼</li>');
+						};
+					}
+				}
 				$("#riqidrop").text($(this).text());
-				$(this).parent().slideToggle();
+				$(this).parent().slideToggle(200);
 			});
 			$(".container").delegate('.time', 'click', function() {
 				$("#timedrop").text($(this).text());
-				$(this).parent().slideToggle();
 				var temp = $(this).text();
-				$.cookie('dizhi', temp, { expires: 7 });
-				$.post("{{ url_for('dizhi') }}", {dizhi: temp}, function () {window.location.href = '';});
+				$("#waiting").fadeIn(200);
+				$.cookie('dizhi', $("#riqidrop").text() + temp, { expires: 7 });
+				$(this).parent().slideToggle(200, function () {
+					window.location.href = '';
+				});
+				// $.post("{{ url_for('dizhi') }}", {dizhi: temp}, function () {window.location.href = '';});
 			});
 			$(document).click(function(e, toggledDrop) {
 				var _con = $('li.drop');
@@ -330,13 +250,16 @@
 			});
 			$("li.drop").click(function() {
 				if ($(this).next().text() != "") {
-					$(this).next().slideToggle();
+					$(this).next().slideToggle(200);
 				}
 				else {
 					$('.tishi').text('请先选择区域！');
 					$('.tishi').slideToggle(200);
 					setTimeout("$('.tishi').slideToggle(200);", 1000);
 				}
+			});
+			$("#faq").click(function() {
+				window.location.href = '/faq';
 			});
 		});
 	</script>

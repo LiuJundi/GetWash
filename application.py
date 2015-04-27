@@ -41,6 +41,10 @@ def goodsList():
     goods = query_db("select * from goods")
     return jsonify({"goods": goods})
 
+@app.route('/baidu_verify_zQsbmS6VJQ.html')
+def baidu_verify():
+    return render_template("baidu_verify_zQsbmS6VJQ.html")
+
 # 简化sqlite3的查询方式。
 def query_db(query, args=(), one=False):
     cur = g.db.execute(query, args)
@@ -65,26 +69,64 @@ def login():
 
 @app.route('/')
 def index():
-    if 'addr' in session and session['addr'] is not None:
+    if request.cookies.get('dizhi'):
         return render_template("goods.html")
     else:
         return render_template("index.html")
 
+@app.route('/faq')
+def faqPage():
+    return render_template("faq.html")
+
+@app.route('/back/orders/login', methods=['GET', 'POST'])
+def backLogin():
+    if request.method == 'POST':
+        if request.form['usernm'] == "xjcsjtu" and request.form['passwd'] == "getwash.123":
+            session['Admin'] = "Y";
+            return redirect(url_for('getBackOrder'))
+        else:
+            return redirect(url_for('backLogin'))
+    else:
+        return render_template("back_login.html")
 
 # 订单表。
 @app.route('/back/orders')
 def getBackOrder():
-	orders = query_db('select * from cart')
-	return render_template("back.html", orders = orders)
+    if session.get('Admin'):
+        orders = query_db('select * from cart order by ID desc')
+        return render_template("back.html", orders = orders)
+    else:
+        return redirect(url_for('backLogin'))
 		
-		
+@app.route('/back/orders/ContactSort')
+def ContactSort():
+    orders = query_db('select * from cart order by contact')
+    return render_template("back.html",orders = orders)
+
+@app.route('/back/orders/AdSort')
+def AddrSort():
+    orders = query_db('select * from cart order by deliver')
+    return render_template("back.html", orders = orders)
+
+@app.route('/back/orders/TimeSort')
+def TimeSort():
+    orders = query_db('select * from cart order by dtime')
+    return render_template("back.html", orders = orders)
+
 @app.route('/back/orders/update', methods=['GET', 'POST'])
 def updateOrder():
-	state = request.form.get('state')
-	time = request.form.get('time')
-	g.db.execute('update cart set state=? where time = ?', [state, time])
-	g.db.commit()
-	return redirect(url_for("getBackOrder"))
+    state = request.form.get('state')
+    pid = request.form.get('id')
+    g.db.execute('update cart set state=? where id=?', [state, pid])
+    g.db.commit()
+    return redirect(url_for("getBackOrder"))
+
+@app.route('/back/orders/remove', methods=['GET', 'POST'])
+def removeOrder():
+    pid = request.form.get('id')
+    g.db.execute('delete from cart where id=?', [pid])
+    g.db.commit()
+    return redirect(url_for("getBackOrder"))
 		
 		
 @app.route('/toudi', methods=['GET', 'POST'])
@@ -93,7 +135,7 @@ def toudi():
     shouji = request.form.get('shouji')
     shijian = request.form.get('shijian')
     content = request.form.get('content')
-    liuyan = request.form.get('liuyan')
+    liuyan = request.form.get('note')
     g.db.execute('insert into cart (contact, list, note, deliver, time, pickup, dtime, ptime) values (?, ?, ?, ?, ?, ?, ?, ?)',
      [shouji, content, liuyan, dizhi, int(time.time()), dizhi, shijian, shijian])
     g.db.commit()

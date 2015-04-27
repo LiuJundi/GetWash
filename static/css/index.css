@@ -7,6 +7,18 @@ body {
 	-webkit-user-select:none;
 	font-family: "Microsoft JhengHei","Microsoft YaHei"
 }
+#loading {
+	border: none;
+	width: 70px;
+	height: 70px;
+	margin: 50px auto;
+}
+.A {
+	height: 250px;
+}
+#denglu {
+	height: 250px;
+}
 #logoImg {
 	margin: 15px auto;
 	max-width: 500px;
@@ -65,19 +77,19 @@ body {
 }
 .school {
 	width: 200px;
-	height: 240px;
+	height: auto;
 	margin: 0 auto;
+	margin-bottom: 20px;
 }
 .school > .addr {
 	cursor: pointer;
-	width: 200px;
-	height: 33px;
+	width: 180px;
+	height: 28px;
 	border-radius: 5px;
-	padding: 8px 0 0 0;
+	padding: 7px 0 0 0;
 	border: 2px solid white;
-	font-size: 18px;
-	margin: 5px 0;
-	float: left;
+	font-size: 16px;
+	margin: 7px auto;
 }
 .addr {
 	background: rgba(0, 155, 245, 0.87);
@@ -125,10 +137,11 @@ input {
 	margin: 10px 0;
 	border: 0;
 }
-#denglu {
-	width: 175px;
+#signin {
 	margin: 0 auto;
+	width: 175px;
 }
+
 .tishi {
 	font-size: 20px;
 	display: none;
